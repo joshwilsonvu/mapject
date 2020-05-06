@@ -1,0 +1,24 @@
+{
+  "name": "mapject",
+  "version": "1.0.0",
+  "description": "Get the performance of a Map with the syntax of an object.",
+  "main": "dist/index.js",
+  "author": "Josh Wilson",
+  "license": "MIT",
+  "keywords": ["map", "object", "refactor", "proxy", "key", "value", "collection"],
+  "scripts": {
+    "build": "tsc --outDir dist",
+    "test": "jest"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3"
+  }
+}
